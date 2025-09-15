@@ -860,7 +860,8 @@ del loaderclass
 add_library_search_dirs([])
 
 # Begin libraries
-_libs["vxlapi64"] = load_library("vxlapi64")
+DLL_NAME = "vxlapi64" if platform.architecture()[0] == "64bit" else "vxlapi"
+_libs[DLL_NAME] = load_library(DLL_NAME)
 
 # 1 libraries
 # End libraries
