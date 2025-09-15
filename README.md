@@ -2,7 +2,7 @@
 
 Python Wrapper for Vector XL Driver Library
 
-The `pyvxlapi.py` is convert from `vxlapi.h` by `ctypesgen`
+The `pyvxlapi.py` is convert from `vxlapi.h` by [ctypesgen](https://github.com/ctypesgen/ctypesgen)
 
 ```sh
 $ uv venv
