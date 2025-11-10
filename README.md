@@ -12,9 +12,8 @@ $ uv pip install pyvxlapi
 
 ## Development
 ```sh
-$ uv venv
-$ uv add --dev ctypesgen
-$ uv run ctypesgen -lvxlapi64 -o src/pyvxlapi/pyvxlapi.py assets/vxlapi.h
+$ uv sync
+$ uv run ctypesgen -lvxlapi64 --strip-build-path="C:\\pyvxlapi\\assets\\" -o src/pyvxlapi/__init__.py assets/vxlapi.h
 ```
 
 ## Example

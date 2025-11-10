@@ -1,6 +1,6 @@
 [project]
 name = "pyvxlapi"
-version = "0.1.1"
+version = "0.1.2"
 description = "Python Wrapper for Vector XL Driver Library"
 readme = "README.md"
 requires-python = ">=3.9"
